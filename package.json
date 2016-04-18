@@ -1,6 +1,6 @@
 {
   "name": "bitbout-native",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Electron app shell for bitbout.",
   "main": "main.js",
   "scripts": {
@@ -11,12 +11,12 @@
     "url": "git+https://github.com/okaybenji/bitbout-native.git"
   },
   "author": "Benji Kay",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/okaybenji/bitbout-native/issues"
   },
   "homepage": "https://github.com/okaybenji/bitbout-native#readme",
   "dependencies": {
-    "bitbout": "^0.1.0"
+    "bitbout": "^1.0.0"
   }
 }
