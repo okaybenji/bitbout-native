@@ -12,3 +12,7 @@ Then navigate to your bitbout-native directory and run the following commands:
 `npm install`
 
 `/Applications/Electron.app/Contents/MacOS/Electron ./`
+
+**NOTE: You must edit node_modules/bitbout/scripts/vendor/libopenmpt.js:**
+**FROM** `var memoryInitializer="./scripts/vendor/libopenmpt.js.mem";`
+**TO** `var memoryInitializer=require("path").join(__dirname, "/scripts/vendor/libopenmpt.js.mem");`
