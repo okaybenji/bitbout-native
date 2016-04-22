@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/okaybenji/bitbout-native#readme",
   "dependencies": {
-    "bitbout": "^0.1.0"
+    "bitbout": "*"
   }
 }
